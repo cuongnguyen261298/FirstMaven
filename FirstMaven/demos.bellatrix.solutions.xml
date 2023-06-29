@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demos.bellatrix.solutions">
+    <test name="Purchase">
+        <parameter name="browserType" value="chrome"/>
+        <parameter name="appURL" value="http://demos.bellatrix.solutions/"/>
+        <classes>
+            <class name="demos.bellatrix.solutions.PurchaseTest">
+                <methods>
+                    <include name="purchaseItemSuccessfully" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

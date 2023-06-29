@@ -1,0 +1,2 @@
+Chức năng chính của PageTest
+- Thực hiện chạy các case của từng màn hình.

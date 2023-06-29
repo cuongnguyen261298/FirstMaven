@@ -1,0 +1,3 @@
+Chức năng chính của PageBase
+-Find element
+-Actions

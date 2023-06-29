@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="integration.gridly.com">
+    <test name="Login test">
+        <parameter name="browserType" value="chrome"/>
+        <parameter name="appURL" value="https://integration.gridly.com"/>
+        <classes>
+            <class name="integration.gridly.com.login.LoginWithAccount_test">
+                <methods>
+                    <include name="loginSimpleAccount" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
